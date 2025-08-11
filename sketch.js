@@ -9,7 +9,6 @@ function draw() {
   ellipse(mouseX,mouseY,d,d);
 
   function keyPressed() {
-  if (key === 'p') {
-    save('dibujo.jpg');
+  if (key === 'p') {save('dibujo.jpg');
   }
 }
