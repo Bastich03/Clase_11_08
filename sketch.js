@@ -6,9 +6,9 @@ function setup() {
 
 function draw() {
   d = random(45,70);
-  fill(random(20,10,0),random(0,100),100);
+  fill(random(20,10),100);
   ellipse(mouseX,mouseY,d,d);
-  fill(random(0,70,95),random(20,80,60),100);
+  fill(random(20,80),100);
   square(mouseX,mouseY, 35);
 }
   function keyPressed() {
