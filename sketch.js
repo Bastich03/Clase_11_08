@@ -1,7 +1,6 @@
 function setup() {
   createCanvas(windowWidth, windowHeight).position(0,0).style('z-index','-1');
-  background(228,194,59)
-  colorMode (HSB);
+   background(255,216,223);
 }
 
 function draw() {
