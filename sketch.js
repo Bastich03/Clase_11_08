@@ -5,13 +5,14 @@ function setup() {
 }
 
 function draw() {
-  d = random(45,70);
-  fill(random(20,10),100);
+  d = random(10,60)
+    colorMode(HSB,360,100,100);
+  fill(random(0,360),100,100);
   ellipse(mouseX,mouseY,d,d);
-  fill(random(20,80),100);
-  square(mouseX,mouseY, 35);
 }
-  function keyPressed() {
+
+function keyPressed() {
   if (key === 'p') {
-    save('dibujo.jpg');}
+    save('dibujo.jpg');
+  }
 }
